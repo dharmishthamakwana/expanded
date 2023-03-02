@@ -130,14 +130,11 @@ class _Page1State extends State<Page1> {
               InkWell(
                 onTap: () {
                   setState(() {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Page1(),
-                        ));
+                    Navigator.pushNamed(context, 'se');
+
                   });
                 },
-                child: Icon(Icons.arrow_forward_rounded,),
+                child: Icon(Icons.arrow_forward_rounded,color: Colors.black),
               ),
             ],
           ),
