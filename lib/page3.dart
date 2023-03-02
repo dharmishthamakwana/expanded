@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 // import 'package:pr1/page3.dart';
 // import 'package:pr1/Page2.dart';
 
@@ -12,7 +13,8 @@ class Page3 extends StatefulWidget {
 class _Page3State extends State<Page3> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(child: Scaffold(
+    return SafeArea(
+        child: Scaffold(
       body: Column(
         children: [
           Expanded(
@@ -169,19 +171,17 @@ class _Page3State extends State<Page3> {
                 InkWell(
                   onTap: () {
                     setState(() {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => Page3(),
-                          ));
+                      Navigator.pushNamed(context, 'se');
                     });
                   },
-                  child: Icon(Icons.arrow_back,),
+                  child: Icon(
+                    Icons.arrow_back,
+                  ),
                 ),
                 InkWell(
                     onTap: () {
                       setState(() {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => Page3(),));
+                        Navigator.pushNamed(context, 'fo');
                       });
                     },
                     child: Icon(Icons.arrow_forward_rounded)),
