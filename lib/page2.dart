@@ -166,7 +166,7 @@ class _Page2State extends State<Page2> {
                       });
                     },
                     child: Icon(
-                      Icons.arrow_back,
+                      Icons.arrow_back,color: Colors.black,size: 40,
                     ),
                   ),
                   InkWell(
@@ -175,7 +175,7 @@ class _Page2State extends State<Page2> {
                           Navigator.pushNamed(context, 'th');
                         });
                       },
-                      child: Icon(Icons.arrow_forward_rounded)),
+                      child: Icon(Icons.arrow_forward_rounded,size: 40,color: Colors.black,)),
                 ],
               ),
             ),
