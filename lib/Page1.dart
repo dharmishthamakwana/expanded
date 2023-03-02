@@ -12,132 +12,134 @@ class _Page1State extends State<Page1> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-        child: Scaffold(
-          body: Column(
-            children: [
-              Expanded(
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.black,
-                      ),
+      child: Scaffold(
+        body: Column(
+          children: [
+            Expanded(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.black,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.white,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.white,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.black,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.black,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              Expanded(
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.white,
-                      ),
+            ),
+            Expanded(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.white,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.black,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.black,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.white,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.white,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              Expanded(
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.black,
-                      ),
+            ),
+            Expanded(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.black,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.white,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.white,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.black,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.black,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              Expanded(
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.white,
-                      ),
+            ),
+            Expanded(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.white,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.black,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.black,
                     ),
-                    Expanded(
-                      child: Container(
-                        width: 100,
-                        height: 100,
-                        color: Colors.white,
-                      ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      width: 100,
+                      height: 100,
+                      color: Colors.white,
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              InkWell(
-                onTap: () {
-                  setState(() {
-                    Navigator.pushNamed(context, 'se');
-
-                  });
-                },
-                child: Icon(Icons.arrow_forward_rounded,color: Colors.black),
-              ),
-            ],
-          ),
-        ));
+            ),
+            InkWell(
+              onTap: () {
+                setState(() {
+                  Navigator.pushNamed(context, 'se');
+                });
+              },
+              child: Icon(Icons.arrow_forward_rounded,
+                  color: Colors.black, size: 40),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
+
