@@ -1,6 +1,7 @@
-import 'package:expanded/Page1.dart';
 import 'package:flutter/material.dart';
- // import 'package:pr1/page3.dart';
+import 'package:untitled4/page1.dart';
+
+// import 'package:pr1/page3.dart';
 // import 'package:pr1/Page1.dart';
 
 class Page2 extends StatefulWidget {
@@ -161,19 +162,17 @@ class _Page2State extends State<Page2> {
                   InkWell(
                     onTap: () {
                       setState(() {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Page1(),
-                            ));
+                        Navigator.pushNamed(context, 'se');
                       });
                     },
-                    child: Icon(Icons.arrow_back,),
+                    child: Icon(
+                      Icons.arrow_back,
+                    ),
                   ),
                   InkWell(
                       onTap: () {
                         setState(() {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => Page2(),));
+                          Navigator.pushNamed(context, 'th');
                         });
                       },
                       child: Icon(Icons.arrow_forward_rounded)),
